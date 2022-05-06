@@ -1,3 +1,13 @@
+# Deploy angular project to github steps:
+
+# 1 go to angular.json->outputPath->myDocs  ["outputPath": "myDocs"]
+# 2 from project say ng build --output-path myDocs --base-href project_name
+# 3 go to github.com login and create new repository
+# 4 open gitbash terminal from within your project folder and follow commands
+# git init
+# git remote add origin https://github.com/sunmahika/angular-helloworld.git
+# git add .
+
 # WelcomeGuys
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
