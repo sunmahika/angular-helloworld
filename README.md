@@ -1,12 +1,20 @@
 # Deploy angular project to github steps:
 
-# 1 go to angular.json->outputPath->myDocs  ["outputPath": "myDocs"]
+# 1 go to angular.json->outputPath->docs  ["outputPath": "docs"]
 # 2 from project say ng build --output-path myDocs --base-href project_name
 # 3 go to github.com login and create new repository
 # 4 open gitbash terminal from within your project folder and follow commands
 # git init
 # git remote add origin https://github.com/sunmahika/angular-helloworld.git
 # git add .
+# git status
+# git commit -m "First Angular Project added to github"
+# git push -u origin master
+# go to github and refresh and will see code uploaded
+# go to settings in gihub -> Github pages-> select master and docs ->save 
+# After saving will get the link as below
+# Your site is ready to be published at https://sunmahika.github.io/angular-helloworld/
+
 
 # WelcomeGuys
 
